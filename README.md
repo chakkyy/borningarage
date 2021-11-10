@@ -1,7 +1,7 @@
 # BornInGarage
 An SPA for car engine sounds.
 
-<img src="https://i.imgur.com/VRH7gnn.png" width="128"/>
+<img src="https://i.imgur.com/VRH7gnn.png"/>
 
 ## Overview
 Love the sound of cars? BornInGarage is a collection of car sounds where you can search through a variety of different luxury and sports cars and hear their specific, distinct exhaust sound when the engine is revved.
