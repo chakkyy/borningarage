@@ -60,12 +60,16 @@ class About extends Component {
               alt="Carlos Ramirez Github"
             />
           </a>
-          <span>
+          <a
+            href=" https://cramirez.vercel.app/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <img
               src="https://api.iconify.design/dashicons:portfolio.svg?color=white"
               alt="Carlos Ramirez Portfolio"
             />
-          </span>
+          </a>
         </div>
       </div>
     );

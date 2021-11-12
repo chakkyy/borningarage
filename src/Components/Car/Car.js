@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import AudioPlayer from "../Player/Player";
+import Player from "../Player/Player";
 import "./Car.scss";
 import { InfiniteScroll } from "react-simple-infinite-scroll";
 
@@ -44,8 +44,7 @@ class Car extends Component {
               style={{ backgroundImage: `url(${car.carImage})` }}
               aria-label={`${car.carMake} ${car.carModel}`}
             >
-              <AudioPlayer url={car.carSound} />
-
+              <Player streamUrl={car.carSound} preloadType="metadata" />
               <div className="carText">
                 <div className="carYear">{car.carYear}</div>
                 <a

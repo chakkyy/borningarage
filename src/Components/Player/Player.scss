@@ -6,34 +6,21 @@
   width: 100%;
 }
 
+.progress-inner {
+  background-color: #f42737;
+  height: 100%;
+  transition: width 0.2s ease-in;
+}
+
 .progress-container {
-  background-color: transparent;
+  background-color: rgba(238, 238, 238, 0.7);
   width: 100%;
-  height: 0.8em;
+  height: 15px;
   overflow: hidden;
   cursor: pointer;
 }
 
-.progress-inner {
-  appearance: none;
-  min-width: 100%;
-  min-height: 100%;
-  background: rgba(238, 238, 238, 0.7);
-  position: relative;
-  outline: none;
-  transition: width 0.2s ease-in;
-}
-
-.progress-inner::-webkit-slider-thumb {
-  appearance: none;
-  width: 2em;
-  height: 2em;
-  // background: green;
-
-  cursor: pointer;
-}
-
-.timer {
+.sb-soundplayer-timer {
   font-size: 13px;
   padding-bottom: 5px;
   text-shadow: 0 0 8px rgba(0, 0, 0, 0.5);
@@ -47,7 +34,7 @@
   border-radius: 3px 0 0 3px;
 }
 
-.playbutton {
+.sb-soundplayer-btn {
   width: 100%;
   height: 100%;
   color: white;
@@ -56,23 +43,23 @@
   cursor: pointer;
 }
 
-.playbutton:focus {
+.sb-soundplayer-btn:focus {
   outline: 0;
 }
 
-.playbutton svg {
+.sb-soundplayer-btn svg {
   width: 40px;
   height: 40px;
   margin: 20px;
   transition: opacity 300ms ease;
 }
 
-.playbutton svg:hover {
+.sb-soundplayer-btn svg:hover {
   opacity: 0.85;
 }
 
 @media screen and (max-width: 680px) {
-  .playbutton {
+  .sb-soundplayer-btn {
     display: flex;
     align-items: flex-end;
     justify-content: flex-end;

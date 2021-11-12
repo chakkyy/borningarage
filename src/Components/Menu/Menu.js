@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import About from "../About/About";
-
 import "./Menu.scss";
+
 class Menu extends Component {
   openMenu() {
     let body = document.querySelector("body");
